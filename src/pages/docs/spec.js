@@ -9,6 +9,8 @@ const StandardMLSpecPage = () => (
     <SEO title="SML Language Specification" />
     <a
       href="https://github.com/SMLFamily/The-Definition-of-Standard-ML"
+      target="_blank"
+      rel="noopener noreferrer"
       alt="Link to 1990 SML spec"
     >
       The Definition of Standard ML
@@ -17,6 +19,8 @@ const StandardMLSpecPage = () => (
     Tofte, and Robert Harper.
     <a
       href="https://github.com/SMLFamily/The-Definition-of-Standard-ML-Revised"
+      target="_blank"
+      rel="noopener noreferrer"
       alt="Link to 1997 SML spec"
     >
       The Definition of Standard ML

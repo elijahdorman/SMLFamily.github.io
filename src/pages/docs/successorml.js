@@ -11,6 +11,8 @@ const SuccessorMLPage = () => (
     true to its clean and elegant design.
     <a
       href="https://github.com/SMLFamily/Successor-ML"
+      target="_blank"
+      rel="noopener noreferrer"
       alt="Link to SuccessorML Github"
     >
       SuccessorML Github

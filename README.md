@@ -8,3 +8,5 @@ List stuff so it doesn't get lost during initial dev
 
 - [ ] update gatsby plugin manifest in gatsby-config
 - [ ] change favicon
+- [ ] update history page links and move those PDFs into the correct folder
+- [ ] 

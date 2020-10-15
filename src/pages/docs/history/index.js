@@ -1,0 +1,559 @@
+import React from "react"
+// import { Link } from "gatsby"
+
+import Layout from "../../components/layout"
+import SEO from "../../components/seo"
+
+const HistoryIndexPage = () => (
+  <Layout>
+    <SEO title="History" />
+    <h1>The History of Standard ML</h1>
+    <p>
+      This page will contain links to historical documents related to the
+      development and evolution of the ML language, and Standard ML in
+      particular.
+    </p>
+    <h2>Papers and Talks</h2>
+    <ul>
+      <li>
+        <a
+          href="macqueen-lucafest.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Luca Cardelli and the Early Evolution of ML
+        </a>
+        , by David MacQueen. A paper presented at the Luca Cardelli Fest at
+        Microsoft Research Cambridge on Sept. 8, 2014.
+      </li>
+      <li>
+        <a href="ML2015-talk.pdf" target="_blank" rel="noopener noreferrer">
+          The History of Standard ML: Ideas, Principles, Culture
+        </a>
+        , by David MacQueen. Slides for a presentation at the ML Family
+        Workshop, Vancouver, September 3, 2015
+      </li>
+      <li>
+        <a href="SML-history.pdf" target="_blank" rel="noopener noreferrer">
+          The History of Standard ML
+        </a>
+        (2020.04.05, final HOPL version), by David MacQueen, Robert Harper, and
+        John Reppy. A paper to be presented at the ACM History of Programming
+        Langauges conference, currently postponed until perhaps the first half
+        of 2021. Also, we offer the extensive
+        <a href="standardml.bib" target="_blank" rel="noopener noreferrer">
+          standardml.bib BibTeX bibliography file
+        </a>{" "}
+        used for this paper.
+      </li>
+    </ul>
+    <h2>Design Documents</h2>
+    <h3>Core Language</h3>
+    <ul>
+      <li>
+        <a
+          href="SML-proposal-4-83.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          A Proposal for Standard ML (TENTATIVE)
+        </a>
+        , by Robin Milner, April, 1983. The first draft of Milner's proposal for
+        core Standard ML, which provided the basis for discussions at the first
+        informal Standard ML meeting at Edinburgh in early April, 1983.
+      </li>
+      <li>
+        <a
+          href="SML-changes-4-83.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Changes to proposal for standard ML
+        </a>
+        , by Robin Milner, April/May 1983(?). Changes to the initial TENTATIVE
+        proposal, probably in response to discussions at the first Standard ML
+        meeting and comments on the circulated Proposal.
+      </li>
+      <li>
+        <a
+          href="SML-proposal-6-83.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          A Proposal for Standard ML (second draft)
+        </a>
+        , by Robin Milner, June 1983. The second draft of Milner's proposal for
+        core Standard ML, incorporating changes resulting from discussions and
+        correspondence after the first informal Standard ML meeting in April,
+        1983. Section 1.1 gives some early history.
+      </li>
+      <li>
+        <a
+          href="SML-proposal-11-83.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          A Proposal for Standard ML
+        </a>
+        , by Robin Milner, November 1983. The third draft of Milner's proposal
+        for core Standard ML.
+      </li>
+      <li>
+        <a
+          href="SML-proposal-7-84.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          The Standard ML Core Language
+        </a>
+        , by Robin Milner, July 1984. The language described is essentially the
+        same as described in "A Proposal for Standard ML", appearing in the 1984
+        ACM Conference on LISP and Functional Programming, Austin, Texas.
+      </li>
+      <li>
+        <a
+          href="SML-proposal-10-84.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          The Standard ML Core Language
+        </a>
+        , by Robin Milner, October, 1984. The second draft of the "Core
+        Language" design.
+      </li>
+      <li>
+        <a
+          href="SML-proposal-9-85.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          The Standard ML Core Language (Revised)
+        </a>
+        , by Robin Milner, September, 1985. The third draft of the "Core
+        Language" design.
+      </li>
+    </ul>
+    <h3>Module Language</h3>
+    <ul>
+      <li>
+        <a
+          href="MacQueen-module-proposal-draft1-1983_08_01.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Modules for Standard ML
+        </a>{" "}
+        by David MacQueen, August, 1983. First manuscript draft of the modules
+        proposal.
+      </li>
+      <li>
+        <a
+          href="Milner-module-notation-1984_05_23.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          A simplified syntax for instances and module definitions, with a
+          proposal for treating sharing specifications
+        </a>{" "}
+        by Robin Milner, 1984.5.23. A proposal for discussion at the June 1984
+        design meeting.
+      </li>
+      <li>
+        <a
+          href="MacQueen-Marstrand-talk-1985.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Dependent Types and Modular Structure
+        </a>{" "}
+        by David MacQueen, June, 1985, Marstrand, Sweden. Talk presented at the
+        Marstrand Workshop on Specification and Derivation of Programs.
+      </li>
+      <li>
+        <a
+          href="Milner-webs-1985_09_01.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Webs
+        </a>{" "}
+        by Robin Milner, 1985.09.01. An abstract model of sharing in modules.
+      </li>
+      <li>
+        <a
+          href="Sannella-module-sematics-1985_11.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          A Denotational Semantics for ML Modules
+        </a>{" "}
+        by Don Sannella, November, 1985.
+      </li>
+    </ul>
+    <h3>Design Meetings</h3>
+    <ul>
+      <li>
+        <a
+          href="SML-meeting-84-schedule.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          ML Meeting Skeleton Timetable
+        </a>{" "}
+        by Robin Milner, June, 1984.
+      </li>
+      <li>
+        <a
+          href="SML-meeting-schedule-1985_05.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Schedule for Standard ML meeting 23-25 May 1985
+        </a>{" "}
+        by (probably) Robin Milner, May 1985.
+      </li>
+      <li>
+        <a
+          href="Harper-SML-meeting-1985_05.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Report on the Standard ML Meeting, Edinburgh, May 23-25, 1985 (DRAFT)
+        </a>{" "}
+        by Robert Harper, 1985.
+      </li>
+    </ul>
+    <h2>Core Language Notes</h2>
+    <ul>
+      <li>
+        <a
+          href="Milner-op-sem-1984_01_31.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Operational Semantics of an ML Subset
+        </a>{" "}
+        by Robin Milner, 1984.01.31. A transition-style dynamic semantics of a
+        subset of Core SML.
+      </li>
+      <li>
+        <a
+          href="Milner-dyn-semantics-1985_04.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          The Dynamic Operational Semantics of Standard ML (3rd Draft)
+        </a>{" "}
+        by Robin Milner, April, 1985. An evaluation (big-step) semantics for
+        Core SML.
+      </li>
+      <li>
+        <a
+          href="Baudinet-DM-tree-pat-match-12-85.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Tree Pattern Matching for ML (extended abstract)
+        </a>
+        , by Marianne Baudinet and David MacQueen, December, 1985. An early
+        version of the SML/NJ pattern match compiler.
+      </li>
+    </ul>
+    <h2>Types and Type Checking</h2>
+    <ul>
+      <li>
+        <a
+          href="Gordon-ML-refs-1980.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Locations as first class objects in ML
+        </a>
+        , by Michael Gordon, circa 1980. A note to Luis Damas on ref types.
+      </li>
+      <li>
+        <a
+          href="MacQueen-typechecking-refs-1983_03_22.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Modified Damas Algorithm for Typechecking with References
+        </a>{" "}
+        by David MacQueen, March, 1983. Proposal for "weak type variables" as a
+        generalization of imperative type variables.
+      </li>
+      <li>
+        <a
+          href="Tofte-poly-refs-revisited-1987_03_09.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Polymorphic References Revisited
+        </a>{" "}
+        by Mads Tofte, 1987.03.09.
+      </li>
+      <li>
+        <a
+          href="MacQueen-culprits-talk-WG28-2003.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Culprits: A Simple Aproach to Better Type Error Messages
+        </a>{" "}
+        by David MacQueen, 2003. Slides for a talk at IFIP Working Group 2.8
+        meeting.
+      </li>
+      <li>
+        <a
+          href="MacQueen-Newman-talk-WG28-2015.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Notes on Newman's "Stratified systems of login"
+        </a>{" "}
+        by David MacQueen, 2015. Slides for a talk at the IFIP Working Group 2.8
+        meeting.
+      </li>
+      <li>
+        <a
+          href="Pottier-System-F-omega-with-(equi-)recursive-types-2011.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          System F omega with (equi-)recursive types
+        </a>{" "}
+        by Francois Pottier, June, 2011.
+      </li>
+    </ul>
+    <h2>Cardelli ML and Edinburgh ML</h2>
+    <ul>
+      <li>
+        <a
+          href="Cardelli-ML-abstract-machine-1980.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          The ML Abstract Machine
+        </a>{" "}
+        by Luca Cardelli, November, 1980. Early discription of the abstract
+        machine that developed into the FAM (Functional Abstract Machine).
+      </li>
+      <li>
+        <a
+          href="Cardelli-MEX-1980_12.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          A Module Exchange Format
+        </a>
+        by Luca Cardelli, December, 1980. Primitives needed to implement an
+        Environment facility for (Cardelli) ML to support modules.
+      </li>
+      <li>
+        <a
+          href="Cardelli-ML-VMS-manual-1982.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          ML under VMS
+        </a>{" "}
+        by Luca Cardelli, 1982. Tutorial introduction to Cardelli ML, as
+        implemented by his compiler on VAX-VMS.
+      </li>
+      <li>
+        <a
+          href="Cardelli-Edinburgh-ML-README-1982_03.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          EDINBURGH ML
+        </a>
+        by Luca Cardelli, March, 1982. A README file accompanying the
+        distribution of Cardelli's ML Compiler for VAX-VMS.
+      </li>
+      <li>
+        <a
+          href="Cardelli-mlchanges_doc-1982_03.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Differences between VAX and DEC-10 ML
+        </a>{" "}
+        by Luca Cardelli, March, 1982. Describes differences between Cardelli's
+        dialect of ML ("VAX ML" or "ML under VMS") and LCF/ML.
+      </li>
+      <li>
+        <a
+          href="Saito-Mlsys-README-1982_03.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          ML System on Vax Unix
+        </a>
+        by Nobuo Saito, March, 1982. README for an independent port of "ML under
+        VMS" (Cardelli ML compiler on VAX-VMS) to Unix.
+      </li>
+      <li>
+        <a
+          href="KMitchell-Edinburgh-SML-progress-report-1983_09_13.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          ML Progress Report
+        </a>{" "}
+        by Kevin Mitchell (for Rod Burstall), 1983.09.13. Progress report on
+        Edinburgh ML, the reimplementation of Cardelli ML as a
+        self-bootstrapping compiler.
+      </li>
+      <li>
+        <a
+          href="KMitchell-Mycroft-Edinburgh Standard ML Compiler-1985_01.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          The Edinburgh Standard ML Compiler
+        </a>
+        by Kevin Mitchell and Alan Mycroft, January, 1985. The Edinburgh ML
+        compiler updated with Standard ML features.
+      </li>
+    </ul>
+    <h2>Formal Definitions</h2>
+    <ul>
+      <li>
+        <a
+          href="Russo-defn-nonStandard-ML-2014.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          The Definition of Non-Standard ML (Syntax and Static Semantics)
+        </a>{" "}
+        by Claudio Russo, December, 2014.
+      </li>
+    </ul>
+    <h2>Implementation/System Notes</h2>
+    <ul>
+      <li>
+        <a
+          href="Milner-Burstall-precompilation-1983_06_30.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Discussion with Rod Burstall about precompilation
+        </a>{" "}
+        by Robin Milner, 1983.6.30.
+      </li>
+    </ul>
+    <h2>Basis Library Documents</h2>
+    <p>
+      These are various documents connected to the design of the{" "}
+      <i>Standard ML Basis Library</i>, which was part of the 1997 revision of
+      the <i>Definition of Standard ML</i>.
+    </p>
+    <ul>
+      <li>
+        <a href="std-charter.pdf" target="_blank" rel="noopener noreferrer">
+          Toward a standard Standard ML
+        </a>{" "}
+        (author unknown). The original proposal for standardizing an SML Basis
+        Library.
+      </li>
+      <li>
+        <a
+          href="basis-1994-03-05.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          A New Initial Basis for Standard ML (Draft)
+        </a>
+        by Andrew Appel, Dave Berry, Emden Gansner, Lal George, Lorenz
+        Huelsbergen, Dave MacQueen, and John Reppy, March 5, 1994.
+      </li>
+      <li>
+        <a
+          href="basis-1995-06-26.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          A New Initial Basis for Standard ML (Draft)
+        </a>
+        by Andrew Appel, Dave Berry, Emden Gansner, Lal George, Lorenz
+        Huelsbergen, Dave MacQueen, and John Reppy, June 6, 1996.
+      </li>
+      <li>
+        <a href="io.94-11-14.pdf" target="_blank" rel="noopener noreferrer">
+          Proposed interface for Standard ML stream I/O
+        </a>
+        by Andrew Appel, November 14, 1994. Working draft proposal for the
+        design of stream I/O for Standard ML.
+      </li>
+      <li>
+        <a href="io.94-11-30.pdf" target="_blank" rel="noopener noreferrer">
+          Proposed interface for Standard ML stream I/O
+        </a>
+        by Andrew Appel, November 30, 1994. Working draft proposal for the
+        design of stream I/O for Standard ML.
+      </li>
+      <li>
+        <a href="io.95-01-11.pdf" target="_blank" rel="noopener noreferrer">
+          Proposed interface for Standard ML stream I/O
+        </a>
+        by Andrew Appel, January 11, 1995. Working draft proposal for the design
+        of stream I/O for Standard ML.
+      </li>
+      <li>
+        <a href="io.95-01-31.pdf" target="_blank" rel="noopener noreferrer">
+          Proposed interface for Standard ML stream I/O
+        </a>
+        by Andrew Appel, January 11, 1995. Working draft proposal for the design
+        of stream I/O for Standard ML.
+      </li>
+      <li>
+        <a href="io.95-02-06.pdf" target="_blank" rel="noopener noreferrer">
+          Proposed interface for Standard ML stream I/O
+        </a>
+        by Andrew Appel, February 6, 1995. Working draft proposal for the design
+        of stream I/O for Standard ML.
+      </li>
+      <li>
+        <a href="io.95-05-31.pdf" target="_blank" rel="noopener noreferrer">
+          Proposed interface for Standard ML stream I/O
+        </a>
+        by Andrew Appel, May 31, 1995. Working draft proposal for the design of
+        stream I/O for Standard ML.
+      </li>
+      <li>
+        <a href="io.95-06-23.pdf" target="_blank" rel="noopener noreferrer">
+          Proposed interface for Standard ML stream I/O
+        </a>
+        by Andrew Appel, June 23, 1995. Working draft proposal for the design of
+        stream I/O for Standard ML.
+      </li>
+      <li>
+        <a href="io.95-07-13.pdf" target="_blank" rel="noopener noreferrer">
+          Proposed interface for Standard ML stream I/O
+        </a>
+        by Andrew Appel, July 13, 1995. Working draft proposal for the design of
+        stream I/O for Standard ML.
+      </li>
+      <li>
+        <a href="safe-sockets.pdf" target="_blank" rel="noopener noreferrer">
+          A safe interface to sockets (draft)
+        </a>
+        by John Reppy, May 28, 1996. Proposal for a type-safe sockets interface.
+      </li>
+      <li>
+        <a
+          href="sml-sockets-talk-wg2.8.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          A ``Safe'' Sockets API
+        </a>
+        by John Reppy, September 20, 1995. Slides from talk given at the IFIP
+        WG2.8 meeting in 1995 (Aspenäs, Sweden).
+      </li>
+    </ul>
+  </Layout>
+)
+
+export default HistoryIndexPage
