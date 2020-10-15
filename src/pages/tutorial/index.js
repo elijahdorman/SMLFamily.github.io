@@ -6,8 +6,9 @@ import SEO from "../../components/seo"
 
 const TutorialIndexPage = () => (
   <Layout>
-    <SEO title="Tutorial" />A tutorial for people new to programming will go
-    here
+    <SEO title="Tutorial" />
+    Contains both advanced and beginner tutorials Tells users the difference so
+    they can choose
   </Layout>
 )
 
